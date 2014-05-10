@@ -1,0 +1,1 @@
+A Pinterest-like application written in Rails 4.02.
