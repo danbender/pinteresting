@@ -1,4 +1,7 @@
 A pinterest-like responsive web app.
 
-Rails: 4.02
-Rspec
+Dependencies
+================
+* Rails 4.02
+* Bootstrap 3
+* Rspec
