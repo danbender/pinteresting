@@ -3,4 +3,6 @@ Pinteresting::Application.routes.draw do
 
   resources :pages, only: [:home]
 
+  get "about" => "pages#about"
+
 end

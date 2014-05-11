@@ -7,4 +7,11 @@ describe PagesController do
       expect(response.status).to eq(200)
     end
   end
+
+  describe "GET about" do
+    it "has a 200 status" do
+      get :about
+      expect(response.status).to eq(200)
+    end
+  end
 end
