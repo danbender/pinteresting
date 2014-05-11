@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe "pages controller" do
+describe PagesController do
   describe "GET home" do
     it "has a 200 status" do
       get :home
