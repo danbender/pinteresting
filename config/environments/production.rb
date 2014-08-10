@@ -83,6 +83,7 @@ Pinteresting::Application.configure do
   # note to set this to actual host name
   config.action_mailer.default_url_options = { :host => 'http://pinterestfun.herokuapp.com/' }
 
+  #aws s3 for paperclip image upload
   config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
